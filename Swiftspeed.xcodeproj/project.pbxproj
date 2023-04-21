@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		394CB45129F2392A00234A0C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB45029F2392A00234A0C /* SettingsView.swift */; };
 		39606A0E29F1FC6A00323696 /* SwiftspeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39606A0D29F1FC6A00323696 /* SwiftspeedApp.swift */; };
 		39606A1029F1FC6A00323696 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39606A0F29F1FC6A00323696 /* ContentView.swift */; };
 		39606A1229F1FC6B00323696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39606A1129F1FC6B00323696 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		394CB44F29F2374F00234A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		394CB45029F2392A00234A0C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		39606A0A29F1FC6A00323696 /* Swiftspeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftspeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39606A0D29F1FC6A00323696 /* SwiftspeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftspeedApp.swift; sourceTree = "<group>"; };
 		39606A0F29F1FC6A00323696 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				394CB44F29F2374F00234A0C /* Info.plist */,
 				39606A0D29F1FC6A00323696 /* SwiftspeedApp.swift */,
 				39606A0F29F1FC6A00323696 /* ContentView.swift */,
+				394CB45029F2392A00234A0C /* SettingsView.swift */,
 				39606A3929F1FED900323696 /* SpeedLogView.swift */,
 				39606A3729F1FC8800323696 /* LocationManager.swift */,
 				39606A1129F1FC6B00323696 /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394CB45129F2392A00234A0C /* SettingsView.swift in Sources */,
 				39606A1029F1FC6A00323696 /* ContentView.swift in Sources */,
 				39606A0E29F1FC6A00323696 /* SwiftspeedApp.swift in Sources */,
 				39606A3829F1FC8800323696 /* LocationManager.swift in Sources */,
