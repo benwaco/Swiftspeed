@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		394CB44F29F2374F00234A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		39606A0A29F1FC6A00323696 /* Swiftspeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftspeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39606A0D29F1FC6A00323696 /* SwiftspeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftspeedApp.swift; sourceTree = "<group>"; };
 		39606A0F29F1FC6A00323696 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +99,7 @@
 		39606A0C29F1FC6A00323696 /* Swiftspeed */ = {
 			isa = PBXGroup;
 			children = (
+				394CB44F29F2374F00234A0C /* Info.plist */,
 				39606A0D29F1FC6A00323696 /* SwiftspeedApp.swift */,
 				39606A0F29F1FC6A00323696 /* ContentView.swift */,
 				39606A3929F1FED900323696 /* SpeedLogView.swift */,
@@ -428,6 +430,8 @@
 				DEVELOPMENT_TEAM = 7UKM4R82H9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Swiftspeed/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "In order to get your speed, Swiftspeed need your location.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "In order to get your speed, Swiftspeed need your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -458,6 +462,8 @@
 				DEVELOPMENT_TEAM = 7UKM4R82H9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Swiftspeed/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "In order to get your speed, Swiftspeed need your location.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "In order to get your speed, Swiftspeed need your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

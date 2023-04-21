@@ -7,24 +7,24 @@ struct ContentView: View {
     @State private var speedLogs: [(Date, Double)] = []
     @ObservedObject var locationManager = LocationManager()
     @State private var showSpeedLogs = false
-    
+
     let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
-    
+
     var body: some View {
         NavigationView {
             VStack {
                 Text("Speedometer")
                     .font(.largeTitle)
                     .padding()
-                
-                Text("\(currentSpeed, specifier: "%.1f") mph")
+
+                Text(String(format: "%.1f mph", currentSpeed))
                     .font(.system(size: 60))
                     .padding()
-                
-                Text("Top Speed: \(topSpeed, specifier: "%.1f") mph")
+
+                Text("Top Speed: \(String(format: "%.1f mph", topSpeed))")
                     .font(.headline)
                     .padding()
-                
+
                 HStack {
                     Button(action: {
                         topSpeed = 0.0
@@ -36,7 +36,7 @@ struct ContentView: View {
                             .foregroundColor(.white)
                             .cornerRadius(8)
                     }
-                    
+
                     Button(action: {
                         showSpeedLogs = true
                     }) {
@@ -46,13 +46,23 @@ struct ContentView: View {
                             .background(Color.blue)
                             .foregroundColor(.white)
                             .cornerRadius(8)
-                    }.sheet(isPresented: $showSpeedLogs) {
+                    }
+                    .sheet(isPresented: $showSpeedLogs) {
                         SpeedLogView(speedLogs: speedLogs, onResetLogs: {
                             speedLogs.removeAll()
                         })
                     }
                 }
                 Spacer()
+
+                VStack {
+                    Text("Developed by Ben Waco")
+                        .font(.footnote)
+                    Text("Source Code: https://github.com/benwaco/Swiftspeed")
+                        .font(.footnote)
+                }
+                .padding()
+
             }
             .onReceive(locationManager.speedPublisher) { speed in
                 let speedInMph = speed * 2.23694 // Convert m/s to mph

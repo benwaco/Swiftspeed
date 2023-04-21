@@ -4,13 +4,15 @@ import Combine
 
 class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     private let locationManager = CLLocationManager()
-    let speedPublisher = PassthroughSubject<CLLocationSpeed, Never>()
+    @Published var speedPublisher = PassthroughSubject<CLLocationSpeed, Never>()
 
     override init() {
         super.init()
         self.locationManager.delegate = self
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        self.locationManager.requestWhenInUseAuthorization()
+        self.locationManager.distanceFilter = kCLDistanceFilterNone
+        self.locationManager.requestAlwaysAuthorization()
+        self.locationManager.allowsBackgroundLocationUpdates = true
         self.locationManager.startUpdatingLocation()
     }
 
