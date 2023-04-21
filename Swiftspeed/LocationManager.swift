@@ -12,7 +12,9 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         self.locationManager.distanceFilter = kCLDistanceFilterNone
         self.locationManager.requestAlwaysAuthorization()
-        self.locationManager.allowsBackgroundLocationUpdates = true
+        #if !os(watchOS)
+        locationManager.allowsBackgroundLocationUpdates = true
+        #endif
         self.locationManager.startUpdatingLocation()
     }
 

@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		394CB45129F2392A00234A0C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB45029F2392A00234A0C /* SettingsView.swift */; };
+		394CB45929F24A3900234A0C /* Swiftspeed_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB45829F24A3900234A0C /* Swiftspeed_WatchApp.swift */; };
+		394CB45B29F24A3900234A0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB45A29F24A3900234A0C /* ContentView.swift */; };
+		394CB45D29F24A3A00234A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394CB45C29F24A3A00234A0C /* Assets.xcassets */; };
+		394CB46029F24A3A00234A0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394CB45F29F24A3A00234A0C /* Preview Assets.xcassets */; };
+		394CB46A29F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB46929F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppTests.swift */; };
+		394CB47429F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB47329F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppUITests.swift */; };
+		394CB47629F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB47529F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppUITestsLaunchTests.swift */; };
+		394CB47929F24A3A00234A0C /* Swiftspeed Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 394CB45629F24A3900234A0C /* Swiftspeed Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		394CB48529F24BBC00234A0C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39606A3729F1FC8800323696 /* LocationManager.swift */; };
 		39606A0E29F1FC6A00323696 /* SwiftspeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39606A0D29F1FC6A00323696 /* SwiftspeedApp.swift */; };
 		39606A1029F1FC6A00323696 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39606A0F29F1FC6A00323696 /* ContentView.swift */; };
 		39606A1229F1FC6B00323696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39606A1129F1FC6B00323696 /* Assets.xcassets */; };
@@ -20,6 +29,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		394CB46629F24A3A00234A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39606A0229F1FC6A00323696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394CB45529F24A3900234A0C;
+			remoteInfo = "Swiftspeed Watch Watch App";
+		};
+		394CB47029F24A3A00234A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39606A0229F1FC6A00323696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394CB45529F24A3900234A0C;
+			remoteInfo = "Swiftspeed Watch Watch App";
+		};
+		394CB47729F24A3A00234A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39606A0229F1FC6A00323696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394CB45529F24A3900234A0C;
+			remoteInfo = "Swiftspeed Watch Watch App";
+		};
 		39606A1B29F1FC6B00323696 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 39606A0229F1FC6A00323696 /* Project object */;
@@ -36,9 +66,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		394CB47D29F24A3A00234A0C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				394CB47929F24A3A00234A0C /* Swiftspeed Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		394CB44F29F2374F00234A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		394CB45029F2392A00234A0C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		394CB45629F24A3900234A0C /* Swiftspeed Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swiftspeed Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		394CB45829F24A3900234A0C /* Swiftspeed_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftspeed_WatchApp.swift; sourceTree = "<group>"; };
+		394CB45A29F24A3900234A0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		394CB45C29F24A3A00234A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		394CB45F29F24A3A00234A0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		394CB46529F24A3A00234A0C /* Swiftspeed Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiftspeed Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		394CB46929F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftspeed_Watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		394CB46F29F24A3A00234A0C /* Swiftspeed Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiftspeed Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		394CB47329F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftspeed_Watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		394CB47529F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftspeed_Watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		394CB48429F24B4800234A0C /* Swiftspeed-Watch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Swiftspeed-Watch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		39606A0A29F1FC6A00323696 /* Swiftspeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftspeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39606A0D29F1FC6A00323696 /* SwiftspeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftspeedApp.swift; sourceTree = "<group>"; };
 		39606A0F29F1FC6A00323696 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +109,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		394CB45329F24A3900234A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394CB46229F24A3A00234A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394CB46C29F24A3A00234A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39606A0729F1FC6A00323696 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,12 +154,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		394CB45729F24A3900234A0C /* Swiftspeed Watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				394CB48429F24B4800234A0C /* Swiftspeed-Watch-Watch-App-Info.plist */,
+				394CB45829F24A3900234A0C /* Swiftspeed_WatchApp.swift */,
+				394CB45A29F24A3900234A0C /* ContentView.swift */,
+				394CB45C29F24A3A00234A0C /* Assets.xcassets */,
+				394CB45E29F24A3A00234A0C /* Preview Content */,
+			);
+			path = "Swiftspeed Watch Watch App";
+			sourceTree = "<group>";
+		};
+		394CB45E29F24A3A00234A0C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				394CB45F29F24A3A00234A0C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		394CB46829F24A3A00234A0C /* Swiftspeed Watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				394CB46929F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppTests.swift */,
+			);
+			path = "Swiftspeed Watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		394CB47229F24A3A00234A0C /* Swiftspeed Watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				394CB47329F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppUITests.swift */,
+				394CB47529F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Swiftspeed Watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
 		39606A0129F1FC6A00323696 = {
 			isa = PBXGroup;
 			children = (
 				39606A0C29F1FC6A00323696 /* Swiftspeed */,
 				39606A1D29F1FC6B00323696 /* SwiftspeedTests */,
 				39606A2729F1FC6B00323696 /* SwiftspeedUITests */,
+				394CB45729F24A3900234A0C /* Swiftspeed Watch Watch App */,
+				394CB46829F24A3A00234A0C /* Swiftspeed Watch Watch AppTests */,
+				394CB47229F24A3A00234A0C /* Swiftspeed Watch Watch AppUITests */,
 				39606A0B29F1FC6A00323696 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +210,9 @@
 				39606A0A29F1FC6A00323696 /* Swiftspeed.app */,
 				39606A1A29F1FC6B00323696 /* SwiftspeedTests.xctest */,
 				39606A2429F1FC6B00323696 /* SwiftspeedUITests.xctest */,
+				394CB45629F24A3900234A0C /* Swiftspeed Watch Watch App.app */,
+				394CB46529F24A3A00234A0C /* Swiftspeed Watch Watch AppTests.xctest */,
+				394CB46F29F24A3A00234A0C /* Swiftspeed Watch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +260,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		394CB45529F24A3900234A0C /* Swiftspeed Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394CB47A29F24A3A00234A0C /* Build configuration list for PBXNativeTarget "Swiftspeed Watch Watch App" */;
+			buildPhases = (
+				394CB45229F24A3900234A0C /* Sources */,
+				394CB45329F24A3900234A0C /* Frameworks */,
+				394CB45429F24A3900234A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swiftspeed Watch Watch App";
+			productName = "Swiftspeed Watch Watch App";
+			productReference = 394CB45629F24A3900234A0C /* Swiftspeed Watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		394CB46429F24A3A00234A0C /* Swiftspeed Watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394CB47E29F24A3A00234A0C /* Build configuration list for PBXNativeTarget "Swiftspeed Watch Watch AppTests" */;
+			buildPhases = (
+				394CB46129F24A3A00234A0C /* Sources */,
+				394CB46229F24A3A00234A0C /* Frameworks */,
+				394CB46329F24A3A00234A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				394CB46729F24A3A00234A0C /* PBXTargetDependency */,
+			);
+			name = "Swiftspeed Watch Watch AppTests";
+			productName = "Swiftspeed Watch Watch AppTests";
+			productReference = 394CB46529F24A3A00234A0C /* Swiftspeed Watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		394CB46E29F24A3A00234A0C /* Swiftspeed Watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394CB48129F24A3A00234A0C /* Build configuration list for PBXNativeTarget "Swiftspeed Watch Watch AppUITests" */;
+			buildPhases = (
+				394CB46B29F24A3A00234A0C /* Sources */,
+				394CB46C29F24A3A00234A0C /* Frameworks */,
+				394CB46D29F24A3A00234A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				394CB47129F24A3A00234A0C /* PBXTargetDependency */,
+			);
+			name = "Swiftspeed Watch Watch AppUITests";
+			productName = "Swiftspeed Watch Watch AppUITests";
+			productReference = 394CB46F29F24A3A00234A0C /* Swiftspeed Watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		39606A0929F1FC6A00323696 /* Swiftspeed */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39606A2E29F1FC6B00323696 /* Build configuration list for PBXNativeTarget "Swiftspeed" */;
@@ -148,10 +320,12 @@
 				39606A0629F1FC6A00323696 /* Sources */,
 				39606A0729F1FC6A00323696 /* Frameworks */,
 				39606A0829F1FC6A00323696 /* Resources */,
+				394CB47D29F24A3A00234A0C /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				394CB47829F24A3A00234A0C /* PBXTargetDependency */,
 			);
 			name = Swiftspeed;
 			productName = Swiftspeed;
@@ -204,6 +378,17 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					394CB45529F24A3900234A0C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					394CB46429F24A3A00234A0C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 394CB45529F24A3900234A0C;
+					};
+					394CB46E29F24A3A00234A0C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 394CB45529F24A3900234A0C;
+					};
 					39606A0929F1FC6A00323696 = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -233,11 +418,37 @@
 				39606A0929F1FC6A00323696 /* Swiftspeed */,
 				39606A1929F1FC6B00323696 /* SwiftspeedTests */,
 				39606A2329F1FC6B00323696 /* SwiftspeedUITests */,
+				394CB45529F24A3900234A0C /* Swiftspeed Watch Watch App */,
+				394CB46429F24A3A00234A0C /* Swiftspeed Watch Watch AppTests */,
+				394CB46E29F24A3A00234A0C /* Swiftspeed Watch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		394CB45429F24A3900234A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394CB46029F24A3A00234A0C /* Preview Assets.xcassets in Resources */,
+				394CB45D29F24A3A00234A0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394CB46329F24A3A00234A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394CB46D29F24A3A00234A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39606A0829F1FC6A00323696 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,6 +475,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		394CB45229F24A3900234A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394CB45B29F24A3900234A0C /* ContentView.swift in Sources */,
+				394CB45929F24A3900234A0C /* Swiftspeed_WatchApp.swift in Sources */,
+				394CB48529F24BBC00234A0C /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394CB46129F24A3A00234A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394CB46A29F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394CB46B29F24A3A00234A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394CB47629F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				394CB47429F24A3A00234A0C /* Swiftspeed_Watch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39606A0629F1FC6A00323696 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -296,6 +534,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		394CB46729F24A3A00234A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 394CB45529F24A3900234A0C /* Swiftspeed Watch Watch App */;
+			targetProxy = 394CB46629F24A3A00234A0C /* PBXContainerItemProxy */;
+		};
+		394CB47129F24A3A00234A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 394CB45529F24A3900234A0C /* Swiftspeed Watch Watch App */;
+			targetProxy = 394CB47029F24A3A00234A0C /* PBXContainerItemProxy */;
+		};
+		394CB47829F24A3A00234A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 394CB45529F24A3900234A0C /* Swiftspeed Watch Watch App */;
+			targetProxy = 394CB47729F24A3A00234A0C /* PBXContainerItemProxy */;
+		};
 		39606A1C29F1FC6B00323696 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 39606A0929F1FC6A00323696 /* Swiftspeed */;
@@ -309,6 +562,152 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		394CB47B29F24A3A00234A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swiftspeed Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UKM4R82H9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swiftspeed-Watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Swiftspeed Watch";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "In order to get your speed, Swiftspeed need your location.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.benwaco.Swiftspeed;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benwaco.Swiftspeed.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		394CB47C29F24A3A00234A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swiftspeed Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7UKM4R82H9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swiftspeed-Watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Swiftspeed Watch";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "In order to get your speed, Swiftspeed need your location.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.benwaco.Swiftspeed;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benwaco.Swiftspeed.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		394CB47F29F24A3A00234A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UKM4R82H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benwaco.Swiftspeed-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftspeed Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swiftspeed Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		394CB48029F24A3A00234A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UKM4R82H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benwaco.Swiftspeed-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftspeed Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swiftspeed Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		394CB48229F24A3A00234A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UKM4R82H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benwaco.Swiftspeed-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Swiftspeed Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		394CB48329F24A3A00234A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UKM4R82H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benwaco.Swiftspeed-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Swiftspeed Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
 		39606A2C29F1FC6B00323696 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -426,6 +825,7 @@
 		39606A2F29F1FC6B00323696 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +858,7 @@
 		39606A3029F1FC6B00323696 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -566,6 +967,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		394CB47A29F24A3A00234A0C /* Build configuration list for PBXNativeTarget "Swiftspeed Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394CB47B29F24A3A00234A0C /* Debug */,
+				394CB47C29F24A3A00234A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394CB47E29F24A3A00234A0C /* Build configuration list for PBXNativeTarget "Swiftspeed Watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394CB47F29F24A3A00234A0C /* Debug */,
+				394CB48029F24A3A00234A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394CB48129F24A3A00234A0C /* Build configuration list for PBXNativeTarget "Swiftspeed Watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394CB48229F24A3A00234A0C /* Debug */,
+				394CB48329F24A3A00234A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		39606A0529F1FC6A00323696 /* Build configuration list for PBXProject "Swiftspeed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
